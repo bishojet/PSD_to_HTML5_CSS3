@@ -159,12 +159,41 @@ body{
   display: block;
   color: #999999;
 }
-.bannersection{}
-.bannerlet{}
-.bannerlet h2{}
-.bannerlet p{}
-.bannerright{}
-.bannerright img{}
+.bannersection{
+  background-color: #3e0d09;
+  height: 300px;
+}
+.banner_left{
+  width: 500px;
+  float: left;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.banner_left h1 {
+  font-family: Georgia;
+  font-size: 46px;
+  line-height: 50px;
+  color: #ffffff;
+  font-weight: normal;
+}
+.banner_left p{
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: normal;
+  line-height: 22px;
+  word-spacing: 3px;
+}
+.bannerright{
+  width: 412px;
+  float: right;
+  margin-right: 20px;
+  margin-top: 30px;
+}
+.bannerright img{
+  float: left;
+  margin-left: 8px;
+  margin-bottom: 8px;
+}
 .contentsection{}
 .content{}
 .samearticle{}
