@@ -162,6 +162,7 @@ body{
 .bannersection{
   background-color: #3e0d09;
   height: 300px;
+  position: relative;
 }
 .banner_left{
   width: 500px;
@@ -194,36 +195,165 @@ body{
   margin-left: 8px;
   margin-bottom: 8px;
 }
-.contentsection{}
-.content{}
-.samearticle{}
+.contentsection{
+  background-color: #e4dfcb;
+  height: 340px;
+  margin: 0 auto;
+}
+.content{
+  width: 920px;
+  height: 350px;
+  margin: 0 auto;
+  background-color: #fff;
+  margin-top: -40px;
+  position: absolute;
+  margin-left: 40px;
+
+}
+.samearticle {
+  margin: 20px;
+  float: left;
+  width: 266px;
+}
 .samearticle img{}
-.samearticle h2{}
+.samearticle h2{
+ font-family: Georgia;
+ font-size: 18px;
+ color: #660000;
+ padding-bottom: 5px;
+ border-bottom: 2px solid #B2B2B2;
+}
 .samearticle p{}
-.samearticle ul{}
-.samearticle ul li{}
-.footertop{}
-.contactsection{}
-.contactsection h2{}
-.contactsection p{}
-.contactsection input[type="text"]{}
-.contactsection input[type="email"]{}
-.contactsection textarea{}
-.contactsection input[type="submit"]{}
-.contactsection input[type="reset"]{}
-.postsection{}
-.samepost{}
-.samepost h2{}
-.samepost p{}
-.newsletter{}
-.newsletter p{}
-.newsletter input[type="text"]{}
-.newsletter input[type="submit"]{}
-.footersection{}
-.footerleft{}
-.footerleft p{}
-.footerright{}
-.footerright p{}
+.samearticle ul{
+  margin: 0;
+  margin-left: 30px;
+  padding: 0;
+}
+.samearticle ul li{
+  padding-bottom: 5px;
+}
+.samearticle p{
+  margin: 0;
+}
+.footertop{
+  height: 325px;
+  background-color: #cec6a2;
+}
+.contactsection{
+  float: left;
+  width: 350px;
+  margin-left: 20px;
+}
+.contactsection h2{
+ font-family: Georgia;
+ font-size: 22px;
+ border-bottom: 1px solid #807c6a;
+ padding-bottom: 15px;
+ margin-bottom: 5px;
+ color: #333333;
+}
+.contactsection p{
+
+}
+
+.textinput{
+  float: left;
+  margin-right: 8px;
+}
+.contactsection input[type="text"]{
+  border: 1px solid #fff;
+  padding: 4px;
+  width: 156px;
+  margin-top: 5px;
+}
+.contactsection input[type="email"]{
+  border: 1px solid #fff;
+  padding: 4px;
+  width: 158px;
+  margin-top: 5px;
+}
+.contactsection textarea{
+  width: 350px;
+  height: 100px;
+  border: 1px solid #fff;
+  padding: 4px;
+}
+.contactsection input[type="submit"]{
+  background-color: #f7f7f7;
+  border: medium none;
+  font-size: 14px;
+  padding: 8px 15px;
+  margin-right: 10px;
+}
+.contactsection input[type="reset"]{
+  background-color: #f7f7f7;
+  border: medium none;
+  font-size: 14px;
+  padding: 8px 15px;
+}
+.postsection {
+  float: right;
+  width: 580px;
+  margin: 20px;
+  margin-top: 0px;
+}
+.samepost{
+  float: left;
+  width: 180px;
+  margin-right: 10px; 
+}
+.samepost h2{
+ font-family: Georgia;
+ font-size: 20px;
+ border-bottom: 1px solid #807c6a;
+ padding-bottom: 15px;
+ margin-bottom: 5px;
+}
+.samepost p{
+  line-height: 23px;
+  margin-bottom: 5px;
+  text-align: justify;
+}
+.newsletter{
+  width: 580px;
+}
+.newsletter p{
+  display: inline;
+  background-color: #e4dfcb;
+  padding: 10px;
+}
+.newsletter input[type="text"] {
+  border: 1px solid #fff;
+  padding: 9px;
+  width: 277px;
+  margin-top: 5px;
+}
+.newsletter input[type="submit"]{
+  background-color: #f7f7f7;
+  border: medium none;
+  font-size: 14px;
+  padding: 8px 15px;
+  margin-right: 10px;
+}
+.footersection{
+  background-color: #250705;
+  height: 45px;
+}
+.footerleft{
+  float: left;
+  margin-left: 20px;
+}
+.footerleft p{
+  color: #ffffff;
+}
+.footerright{
+  float: right;
+  margin-right: 20px;
+}
+.footerright p{
+  color: #ffffff;
+
+}
 
 
 
