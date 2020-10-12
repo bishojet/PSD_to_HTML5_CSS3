@@ -101,15 +101,58 @@ body{
 .clear{
   overflow: hidden;
 }
-.headsection{}
-.headerleft{}
-.headerleft h2{}
-.headerleft p{}
-.mainmenu{}
-.mainmenu ul{}
-.mainmenu ul li{}
-.mainmenu ul li a{}
-.mainmenu ul li a span{}
+.headsection{
+  background-color: #81201A;
+  height: 120px;
+}
+.headerleft{
+  float: left;
+  width: 310px;
+  margin-left: 20px;
+  margin-right: 50px;
+}
+.headerleft h2{
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 32px;
+  margin: 40px 0 0;
+  font-weight: normal;
+}
+.headerleft p{
+  color: #D2D2D2;
+}
+.mainmenu {
+  float: right;
+  margin-right: 15px;
+  width: 559px;
+  margin-top: 25px;
+}
+.mainmenu ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.mainmenu ul li{
+  float: left;
+  display: block;
+}
+.mainmenu ul li a{
+  color: #D2D2D2;
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+  margin: 5px;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.mainmenu ul li a span{
+  font-family: arial;
+  font-size: 12px;
+  text-transform: lowercase;
+  display: block;
+  color: #999999;
+}
 .bannersection{}
 .bannerlet{}
 .bannerlet h2{}
