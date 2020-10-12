@@ -87,6 +87,62 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+
+body{
+  font-family: vardana;
+  font-size: 12px;
+  line-height: 18px;
+  color: #666666;
+}
+.templete{
+  width: 1000px;
+  margin: 0 auto;
+}
+.clear{
+  overflow: hidden;
+}
+.headsection{}
+.headerleft{}
+.headerleft h2{}
+.headerleft p{}
+.mainmenu{}
+.mainmenu ul{}
+.mainmenu ul li{}
+.mainmenu ul li a{}
+.bannersection{}
+.bannerlet{}
+.bannerlet h2{}
+.bannerlet p{}
+.bannerright{}
+.bannerright img{}
+.contentsection{}
+.content{}
+.samearticle{}
+.samearticle img{}
+.samearticle h2{}
+.samearticle p{}
+.samearticle ul{}
+.samearticle ul li{}
+.footertop{}
+.contactsection{}
+.contactsection h2{}
+.contactsection p{}
+.postsection{}
+.samepost{}
+.samepost h2{}
+.samepost p{}
+.newsletter{}
+.newsletter p{}
+.footersection{}
+.footerleft{}
+.footerleft p{}
+.footerright{}
+.footerright p{}
+
+
+
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
