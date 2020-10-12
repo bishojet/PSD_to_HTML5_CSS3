@@ -109,6 +109,7 @@ body{
 .mainmenu ul{}
 .mainmenu ul li{}
 .mainmenu ul li a{}
+.mainmenu ul li a span{}
 .bannersection{}
 .bannerlet{}
 .bannerlet h2{}
@@ -127,12 +128,19 @@ body{
 .contactsection{}
 .contactsection h2{}
 .contactsection p{}
+.contactsection input[type="text"]{}
+.contactsection input[type="email"]{}
+.contactsection textarea{}
+.contactsection input[type="submit"]{}
+.contactsection input[type="reset"]{}
 .postsection{}
 .samepost{}
 .samepost h2{}
 .samepost p{}
 .newsletter{}
 .newsletter p{}
+.newsletter input[type="text"]{}
+.newsletter input[type="submit"]{}
 .footersection{}
 .footerleft{}
 .footerleft p{}
